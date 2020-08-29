@@ -1,0 +1,27 @@
+
+.tabs {
+  width: 100%;
+  color: grey;
+  height: 3rem;
+  background-color: indigo;
+}
+
+button {
+  display: flexbox;
+  width: 10rem;
+  height: 3rem;
+}
+button:hover {
+    background-color: orange;
+    color: white;
+}
+.Home {
+  background-color: lavender;
+  height: 85vh; 
+  display: flex;
+  flex-direction: row;
+  p {
+    width: 100%;
+    text-align: center;
+  }
+}
